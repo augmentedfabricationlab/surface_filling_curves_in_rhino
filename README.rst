@@ -1,15 +1,15 @@
 ============================================================
-surface_filling_curves_in_rhino: Surface_filling_curves_in_Rhino
+surface_filling_curves: Surface-filling-curves
 ============================================================
 
 .. start-badges
 
 .. image:: https://img.shields.io/badge/License-MIT-blue.svg
-    :target: https://github.com/augmentedfabricationlab/surface_filling_curves_in_rhino/blob/master/LICENSE
+    :target: https://github.com/augmentedfabricationlab/surface_filling_curves/blob/master/LICENSE
     :alt: License MIT
 
-.. image:: https://travis-ci.org/augmentedfabricationlab/surface_filling_curves_in_rhino.svg?branch=master
-    :target: https://travis-ci.org/augmentedfabricationlab/surface_filling_curves_in_rhino
+.. image:: https://travis-ci.org/augmentedfabricationlab/surface_filling_curves.svg?branch=master
+    :target: https://travis-ci.org/augmentedfabricationlab/surface_filling_curves
     :alt: Travis CI
 
 .. end-badges
@@ -22,71 +22,25 @@ surface_filling_curves_in_rhino: Surface_filling_curves_in_Rhino
 Main features
 -------------
 
-* feature
-* feature
-* more features
+* Generate Surface-filling-curves on manifold triangle meshes. 
+* Adjust density, smoothness of the curves, 
+* Additionally to the original implementation, includes fixed curves, that influence curve evolution, but themselves do not evolve.
 
-**surface_filling_curves_in_rhino** runs on Python x.x and x.x.
-
-
-Documentation
--------------
-
-.. Explain how to access documentation: API, examples, etc.
-
-..
-.. optional sections:
 
 Requirements
 ------------
 
-.. Write requirements instructions here
-
+Once you download this repository you can run the code inside the example .ghx file in the Rhino folder.
 
 Installation
 ------------
 
-.. Write installation instructions here
 
+Go into surface_filling_curves_in_rhino\build\bin\Debug and copy the sfc.dll into the libraries folder C:\Users\<YourUsername>\AppData\Roaming\Grasshopper\Libraries. 
+Now you can use the example_file.ghx in the Rhino folder.
 
-Contributing
-------------
-
-Make sure you setup your local development environment correctly:
-
-* Clone the `surface_filling_curves_in_rhino <https://github.com/augmentedfabricationlab/surface_filling_curves_in_rhino>`_ repository.
-* Install development dependencies and make the project accessible from Rhino:
-
-::
-
-    pip install -r requirements-dev.txt
-    invoke add-to-rhino
-
-**You're ready to start working!**
-
-During development, use tasks on the
-command line to ease recurring operations:
-
-* ``invoke clean``: Clean all generated artifacts.
-* ``invoke check``: Run various code and documentation style checks.
-* ``invoke docs``: Generate documentation.
-* ``invoke test``: Run all tests and checks in one swift command.
-* ``invoke add-to-rhino``: Make the project accessible from Rhino.
-* ``invoke``: Show available tasks.
-
-For more details, check the `Contributor's Guide <CONTRIBUTING.rst>`_.
-
-
-Releasing this project
-----------------------
-
-.. Write releasing instructions here
-
-
-.. end of optional sections
-..
 
 Credits
 -------------
 
-This package was created by Merlin Bieling <merlin.bieling@tum.de> `@merlinbb <https://github.com/merlinbb>`_ at `@augmentedfabricationlab <https://github.com/augmentedfabricationlab>`_
+This package was created by Merlin Bieling <merlin.bieling@tum.de> `@MerlinBieling <https://github.com/MerlinBieling>`_ at `@augmentedfabricationlab <https://github.com/augmentedfabricationlab>`_
